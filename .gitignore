@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Notebook checkpoints
+*-checkpoint.ipynb
+
+# Ara model dosyaları (grid search denemeleri - deploy için gereksiz, büyük dosyalar)
+xgb_grid_search.pkl
+xgb_grid_search_2.pkl
+rf_grid_search.pkl
+xgb_smote_grid_search.pkl
+rf_smote_grid_search.pkl
+xgb_weighted_grid_search.pkl
+xgb_weighted_grid_search_2.pkl
+xgb_both_grid_search.pkl
+rf_both_grid_search.pkl
+xgb_smote_final.pkl
